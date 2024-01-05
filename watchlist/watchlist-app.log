@@ -1,0 +1,23 @@
+2024-01-01T19:28:01.564-06:00  INFO 5450 --- [http-nio-80-exec-6] c.o.w.controller.WatchlistController     : HTTP GET request received at /watchlist URL 
+2024-01-01T19:28:35.215-06:00  INFO 5450 --- [RMI TCP Connection(474)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-01-01T19:28:43.115-06:00  INFO 19973 --- [main] c.o.watchlist.WatchlistApplication       : Starting WatchlistApplication using Java 17.0.5 with PID 19973 (/Users/santino/eclipse-workspace/watchlist/target/classes started by santino in /Users/santino/eclipse-workspace/watchlist)
+2024-01-01T19:28:43.117-06:00 DEBUG 19973 --- [main] c.o.watchlist.WatchlistApplication       : Running with Spring Boot v3.2.0, Spring v6.1.1
+2024-01-01T19:28:43.118-06:00  INFO 19973 --- [main] c.o.watchlist.WatchlistApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-01-01T19:28:44.399-06:00  INFO 19973 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
+2024-01-01T19:28:44.406-06:00  INFO 19973 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-01T19:28:44.407-06:00  INFO 19973 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-01T19:28:44.451-06:00  INFO 19973 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-01T19:28:44.451-06:00  INFO 19973 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1282 ms
+2024-01-01T19:28:45.029-06:00  INFO 19973 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-01T19:28:45.089-06:00  INFO 19973 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 80 (http) with context path ''
+2024-01-01T19:28:45.112-06:00  INFO 19973 --- [main] c.o.watchlist.WatchlistApplication       : Started WatchlistApplication in 2.504 seconds (process running for 8.286)
+2024-01-01T19:28:45.645-06:00  INFO 19973 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-01T19:28:45.645-06:00  INFO 19973 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-01T19:28:45.647-06:00  INFO 19973 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-01-01T19:28:56.603-06:00  INFO 19973 --- [http-nio-80-exec-1] c.o.w.controller.WatchlistController     : HTTP GET request received at /watchlist URL 
+2024-01-01T19:28:59.093-06:00  INFO 19973 --- [http-nio-80-exec-3] c.o.w.controller.WatchlistController     : HTTP GET request received at /watchlistItemForm URL 
+2024-01-01T19:29:09.302-06:00  INFO 19973 --- [http-nio-80-exec-6] c.o.w.controller.WatchlistController     : HTTP POST request received at /watchlistItemForm URL 
+2024-01-01T19:29:09.316-06:00  INFO 19973 --- [http-nio-80-exec-7] c.o.w.controller.WatchlistController     : HTTP GET request received at /watchlist URL 
+2024-01-01T19:29:09.327-06:00 DEBUG 19973 --- [http-nio-80-exec-7] c.o.w.service.MovieRatingServiceImpl     : OMDb API called with URL: http://www.omdbapi.com/?apikey=cc9bf9ef&t=One Piece
+2024-01-01T19:29:09.591-06:00 DEBUG 19973 --- [http-nio-80-exec-7] c.o.w.service.MovieRatingServiceImpl     : OMDb API response: {"Title":"One Piece","Year":"1999–","Rated":"TV-14","Released":"20 Oct 1999","Runtime":"24 min","Genre":"Animation, Action, Adventure","Director":"N/A","Writer":"Eiichirô Oda","Actors":"Mayumi Tanaka, Akemi Okamura, Laurent Vernin","Plot":"Monkey D. Luffy sets off on an adventure with his pirate crew in hopes of finding the greatest treasure ever, known as the \"One Piece.\"","Language":"Japanese","Country":"Japan","Awards":"4 wins & 10 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.9/10"}],"Metascore":"N/A","imdbRating":"8.9","imdbVotes":"209,231","imdbID":"tt0388629","Type":"series","totalSeasons":"1","Response":"True"}
+2024-01-01T20:06:15.737-06:00  INFO 19973 --- [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
