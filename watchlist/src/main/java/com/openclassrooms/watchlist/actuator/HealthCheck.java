@@ -10,14 +10,15 @@ import com.openclassrooms.watchlist.service.MovieRatingService;
 @Component
 public class HealthCheck implements HealthIndicator {
 
-	private MovieRatingService movieRatingService;
+//	private MovieRatingService movieRatingService;
 	
 	
 	@Autowired
-	public HealthCheck(MovieRatingService movieRatingService) {
-		super();
-		this.movieRatingService = movieRatingService;
-	}
+	MovieRatingService movieRatingService;
+//	public HealthCheck(MovieRatingService movieRatingService) {
+//		super();
+//		this.movieRatingService = movieRatingService;
+//	}
 
 
 
